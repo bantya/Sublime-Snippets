@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+    function id(elem){
+        return document.getElementById(elem);
+    }
+    function tg(elem){
+        return document.getElementsByTagName(elem);
+    }
+    function qs(elem){
+        return document.querySelector(elem);
+    }
+    function cs(elem){
+        return document.getElementsByClassName(elem);
+    }$0
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>jsget</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

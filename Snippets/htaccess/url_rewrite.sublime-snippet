@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+Options -MultiViews
+RewriteEngine On
+${1:
+RewriteBase ${2:path}
+}
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ${3:from_url} ${4:to_url} [QSA,L]
+]]></content>
+	<tabTrigger>htaccess</tabTrigger>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[<a href="mailto:${1:no@no.no}">${1:no@no.no}</a>]]></content>
+	<!-- From: https://gist.github.com/netsi1964/3952230 -->
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>htmailto</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>text.html</scope> -->
+</snippet>

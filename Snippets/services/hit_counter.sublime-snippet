@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+<!-- move css file to the head section of the page and delete this comment -->
+<link rel="stylesheet" href="/services/hosted_css/count.css">
+<?php \$filename = "${1:filename}_"; include_once("${2:../}../../services/hosted_php/counter/count_div.php"); ?>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>hit_countr</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

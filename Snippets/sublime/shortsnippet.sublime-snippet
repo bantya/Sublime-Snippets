@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+{
+    "keys": ["$1"],
+    "command": "insert_snippet",
+    "args": {"name": "Packages/User/Snippets/$0.sublime-snippet"}
+},
+]]></content>
+    <tabTrigger>sublshortsnippet</tabTrigger>
+    <!-- <scope></scope> -->
+    <description>Assign a shortcut to a snippet.</description>
+</snippet>

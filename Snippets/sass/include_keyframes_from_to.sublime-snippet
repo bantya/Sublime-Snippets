@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+@include keyframes($1)
+	from
+		$2: $3
+	to
+		$2: $4$0
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>sakeyfr</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

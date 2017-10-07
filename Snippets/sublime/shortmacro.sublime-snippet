@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+{
+    "keys": ["$1"],
+    "command": "insert_snippet",
+    "args": {"name": "Packages/User/Macros/$0.sublime-macro"}
+},
+]]></content>
+    <tabTrigger>sublshortmacro</tabTrigger>
+    <scope></scope>
+    <description>Assign a shortcut to a macro.</description>
+</snippet>

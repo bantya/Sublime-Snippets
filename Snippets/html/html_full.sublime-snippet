@@ -1,0 +1,77 @@
+<snippet>
+	<content><![CDATA[
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if IE 9 ]> <html class="ie9 no-js"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]> <!-->
+<html class="no-js" lang="en"> <!--[endif]-->
+	<head>
+		<meta charset="UTF-8">
+		<title>$1</title>
+
+		<!-- most common meta -->
+		<meta http-equiv="X-UA-Compatible" content="IE=100" >
+		<meta name="description" content ="$2">
+		<meta name="author" content ="$3">
+		${4:
+		<!-- caching control -->
+		<meta http-equiv="Cache-Control" content="no-store" />
+		<meta http-equiv="Cache-Control" content="no-cache" />
+		<meta http-equiv="Pragma" content="no-cache" />
+		<meta http-equiv="expires" content="Fri, 18 Dec 2016 1:00:00 GMT" />
+		}${5:
+		<!-- setting cookies -->
+		<meta http-equiv="Set-Cookie" content="name=data; path=path; expires=Day, DD-MMM-YY HH:MM:SS ZONE">
+		<meta http-equiv="Set-Cookie" content="name=data; path=path; expires=Thursday, 01-Jan-2015 00:00:00 GMT">
+		}${6:
+		<!-- refreshing & redirecting web pages -->
+		<meta http-equiv="refresh" content="5">
+		<meta http-equiv="refresh" content="5; url=http://example.com/">
+		}${7:
+		<!-- page transition -->
+		<meta http-equiv="page-enter" content="revealtrans(duration=seconds,transition=num)" />
+		<meta http-equiv="page-exit" content="revealtrans(duration=seconds,transition=num)" />
+		<meta http-equiv="page-enter" content="blendTrans(duration=sec)" />
+		}${8:
+		<base href="page_title" target="_blank">
+		}${9:
+		<!-- link tags to help site load faster -->
+		<link rel="prerender" href="your urls">
+		<link rel="prefetch" href="your urls">
+		<link rel="preconnect" href="your urls">
+		<link rel="dns-prefetch" href="your urls">
+		}
+		<!-- mobile specific meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+		<link rel="stylesheet" href="$10.css">
+		<!-- <script type="text/javascript" src="$11.js"></script> -->
+
+		<!-- favicon and apple icons -->
+		<link rel="shortcut icon" href="${12:favicon}">
+		<link rel="apple-touch-icon" href="${13:touch}">
+		<link rel="apple-touch-icon" sizes="72x72" href="${14:touch-72}">
+		<link rel="apple-touch-icon" sizes="114x114" href="${15:touch-114}">
+	</head>
+	<body>
+		${17:<!--[if lt IE 7]>
+			<p>You are using an <strong>OUTDATED</strong> browser. Please upgrade your browser to enhance your performance. </p>
+		<![endif]-->}
+
+		$18
+
+		<script type="text/javascript" src="$16.js"></script>
+	</body>
+</html>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>html5_full</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

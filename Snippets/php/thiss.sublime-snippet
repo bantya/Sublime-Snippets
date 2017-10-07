@@ -1,0 +1,13 @@
+<snippet>
+    <!-- http://docs.sublimetext.info/en/latest/extensibility/snippets.html -->
+    <content><![CDATA[
+Transformation: ${TM_FILENAME/(\w+)\.php/\1/g}
+
+      Original: ${1:text_in_snail_case}
+Transformation: ${1/^(\w)|(?:_(\w))/(?1\u$1:)(?2 \u$2:)/g}
+
+]]></content>
+    <tabTrigger>thiss</tabTrigger>
+    <scope></scope>
+    <description>Thiss</description>
+</snippet>

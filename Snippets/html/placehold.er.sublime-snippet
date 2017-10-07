@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+<img src="http://placehold.er/${1:750x500}/${2:-}/${3:-}/${4:NiLU}/${5:-}" alt="placeholder image">
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>placehold.er</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,18 @@
+ <snippet>
+	<content><![CDATA[
+/**
+ * __wakeup
+ * Magic Method __wakeup () Called during a unserialize ()
+ *
+ * @return  void
+ */
+public function __wakeup()
+{
+	$1
+}$0
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>__wk</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

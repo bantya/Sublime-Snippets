@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+print($1)$0
+]]></content>
+    <tabTrigger>pypr</tabTrigger>
+    <scope>source.python</scope>
+    <description>Python print</description>
+</snippet>
